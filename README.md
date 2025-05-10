@@ -1,18 +1,13 @@
 # [SCA-FI-Vendor-vault.md.tig](https://github.com/sealablab/Workspace.md.tig)
-top level 'Workspace' repository
+Sea-Lab Lab's unofficial SCA and FI vendors list
 
+## [Riscure-Vendor-Vault](https://github.com/sealablab/Riscure-Vendor-Vault): (`./Riscure`)
+`git submodule add git@github.com:sealablab/Riscure-Vendor-Vault.git ./Riscure`
+## [Newae-Vendor-Vault](https://github.com/sealablab/Newae-Vendor-Vault) : (`./Newae`)
+`git submodule add git@github.com:sealablab/Newae-Vendor-Vault ./Newae`
 
-## [Riscure-Vendor-Vault](https://github.com/sealablab/Riscure-Vendor-Vault): (`./31-Riscure`)
-Sealablabs fork of the upstream moku-examples repo
-`git submodule add git@github.com:sealablab/moku-examples.git ./01-moku-examples``
-
-## [Newae-Vendor-Vault](https://github.com/sealablab/Newae-Vendor-Vault) : (`./37-Newae`)
-Sealablab all-purpose VHDL vault
-`git submodule add git@github.com:sealablab/VHDL-Vault.git ./20-VHDL-Vault`
-
-## [Liquid-Instr-Vendor-Vault](https://github.com/sealablab/Liquid-Instr-Vendor-Vault) : (`./51-Moku-FI`)
-First-class Fault-Injection utilities for the Moku-Go. 
-`git submodule add git@github.com:sealablab/Moku-FI.git ./40-Moku-FI`
+## [Liquid-Instr-Vendor-Vault](https://github.com/sealablab/Liquid-Instr-Vendor-Vault) : (`./Moku`)
+`git submodule add git@github.com:sealablab/Liquid-Instr-Vendor-Vault.git ./Moku`
 
 ``` bash
 git submodule init
